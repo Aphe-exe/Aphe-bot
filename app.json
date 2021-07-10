@@ -1,0 +1,26 @@
+{
+  "name": "Aphe Dc Bot",
+  "description": "Pyrogram İle Yazılmış Bir Eğlence Botu",
+  "repository": "https://github.com/Aphe-exe/Aphe-bot.git",
+  "logo": "https://telegra.ph/Aphe-07-10",
+  "keywords": ["telegram", "game", "pyrogram","telegram bot"],
+  "env": {
+     "BOT_TOKEN": {
+      "description": "@Botfather Den Oluşturduğunuz Botun Apisi"
+    },
+    "OWNER_API_ID": {
+      "description": "API_ID'niz https://my.telegram.org/apps dan ala bilirsiniz"
+    },
+    "OWNER_API_HASH": {
+      "description": "API_HASH'iniz https://my.telegram.org/apps dan ala bilirsiniz"
+    },
+    "OWNER_ID": {
+      "description": "Botunuzda Yetmili Olmasini Istediginiz Kisilerin Idleri"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
